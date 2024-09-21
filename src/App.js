@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+//Ejercicio 1
+import React from "react";
+import Contador from "./Contador";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Contador/>
     </div>
   );
 }
 
 export default App;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Ejercicio 2
+// import React from "react";
+// import Componente from "./Componente";
+
+// function App() {
+//   return (
+//     <div>
+//       <Componente />
+//     </div>
+//   );
+// }
+
+// export default App;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Ejercicio 3
+// import React from "react";
+// import ComponenteCambio from "./ComponenteCambio";
+
+// function App() {
+//   return (
+//     <div>
+//       <ComponenteCambio />
+//     </div>
+//   );
+// }
+
+// export default App;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
